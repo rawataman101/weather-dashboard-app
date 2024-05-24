@@ -1,0 +1,13 @@
+.pill {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: var(--white);
+
+  /* Box shadow for glass-like effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

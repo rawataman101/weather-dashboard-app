@@ -1,0 +1,38 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.main {
+  height: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background image */
+  box-shadow: 1px 5px 25px 3px #444;
+  color: white;
+  overflow: hidden;
+  background: url("../assets/back.png") no-repeat center/cover;
+}
+
+.left,
+.right {
+  margin-top: auto;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.main__right {
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  padding: 10px;
+}
