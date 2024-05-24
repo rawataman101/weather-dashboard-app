@@ -51,12 +51,10 @@ function App() {
   return (
     <>
       <Header search={search} setSearch={setSearch} />
-      {!loading ? (
+      {!loading && (
         <>
           <Dashboard weatherData={weatherData} />
         </>
-      ) : (
-        <p>Loading...</p>
       )}
     </>
   );
