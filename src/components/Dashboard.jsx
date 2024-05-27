@@ -34,12 +34,12 @@ function Dashboard({ weatherData }) {
     <div className="dashboard">
       <div className="main">
         <div className="left">
-          <h1>{`${weatherData.main?.temp}°`}</h1>
-          <p>{weatherData?.name}</p>
+          <h1 className="mainLeft__title">{`${weatherData.main?.temp}°`}</h1>
+          <p className="mainLeft__p">{weatherData?.name}</p>
         </div>
         <div className="right">
-          <p>Time</p>
-          <p>{getCurrentTime()}</p>
+          <p className="right__time">Time</p>
+          <p className="right__p">{getCurrentTime()}</p>
         </div>
       </div>
       <div className="bottom">

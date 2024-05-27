@@ -7,7 +7,7 @@
 .main {
   height: 300px;
   border-radius: 20px;
-  padding: 20px;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,6 +17,15 @@
   color: white;
   overflow: hidden;
   background: url("../assets/back.png") no-repeat center/cover;
+}
+
+.mainLeft__title {
+  font-size: 5rem;
+}
+
+.mainLeft__p {
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 .left,
@@ -35,4 +44,12 @@
   border: 1px solid var(--primary);
   border-radius: 10px;
   padding: 10px;
+}
+
+.right__time {
+  font-size: 2rem;
+}
+
+.right__p {
+  font-size: 2rem;
 }
